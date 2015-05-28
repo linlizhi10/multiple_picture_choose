@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250D01751AF203E500F63855 /* SKCheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 250D01741AF203E500F63855 /* SKCheckButton.m */; };
+		250D01771AF206B500F63855 /* Check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250D01761AF206B500F63855 /* Check@2x.png */; };
 		2556871A1AF10CE600E5FC24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255687191AF10CE600E5FC24 /* main.m */; };
 		2556871D1AF10CE700E5FC24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2556871C1AF10CE700E5FC24 /* AppDelegate.m */; };
 		255687201AF10CE700E5FC24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2556871F1AF10CE700E5FC24 /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		250D01731AF203E500F63855 /* SKCheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCheckButton.h; sourceTree = "<group>"; };
+		250D01741AF203E500F63855 /* SKCheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCheckButton.m; sourceTree = "<group>"; };
+		250D01761AF206B500F63855 /* Check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check@2x.png"; sourceTree = "<group>"; };
 		255687141AF10CE600E5FC24 /* multiple_picture_choose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiple_picture_choose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		255687181AF10CE600E5FC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		255687191AF10CE600E5FC24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +86,7 @@
 		255687161AF10CE600E5FC24 /* multiple_picture_choose */ = {
 			isa = PBXGroup;
 			children = (
+				250D01761AF206B500F63855 /* Check@2x.png */,
 				2556871B1AF10CE700E5FC24 /* AppDelegate.h */,
 				2556871C1AF10CE700E5FC24 /* AppDelegate.m */,
 				2556871E1AF10CE700E5FC24 /* ViewController.h */,
@@ -89,6 +95,8 @@
 				255687241AF10CE700E5FC24 /* Images.xcassets */,
 				255687261AF10CE700E5FC24 /* LaunchScreen.xib */,
 				255687171AF10CE600E5FC24 /* Supporting Files */,
+				250D01731AF203E500F63855 /* SKCheckButton.h */,
+				250D01741AF203E500F63855 /* SKCheckButton.m */,
 			);
 			path = multiple_picture_choose;
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250D01771AF206B500F63855 /* Check@2x.png in Resources */,
 				255687231AF10CE700E5FC24 /* Main.storyboard in Resources */,
 				255687281AF10CE700E5FC24 /* LaunchScreen.xib in Resources */,
 				255687251AF10CE700E5FC24 /* Images.xcassets in Resources */,
@@ -221,6 +230,7 @@
 			files = (
 				255687201AF10CE700E5FC24 /* ViewController.m in Sources */,
 				2556871D1AF10CE700E5FC24 /* AppDelegate.m in Sources */,
+				250D01751AF203E500F63855 /* SKCheckButton.m in Sources */,
 				2556871A1AF10CE600E5FC24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +424,7 @@
 				255687391AF10CE700E5FC24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2556873A1AF10CE700E5FC24 /* Build configuration list for PBXNativeTarget "multiple_picture_chooseTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +433,7 @@
 				2556873C1AF10CE700E5FC24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

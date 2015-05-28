@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SKCheckButton.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor purpleColor];
     // Do any additional setup after loading the view, typically from a nib.
+    SKCheckButton *button = [SKCheckButton shareCheckButton];
+    button.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
+}
+- (void)buttonClick:(SKCheckButton *)sender
+{
+    SKCheckButton *SKButton = sender;
+    SKButton.isChecked = !sender.isChecked;
+
 }
 
 - (void)didReceiveMemoryWarning {
